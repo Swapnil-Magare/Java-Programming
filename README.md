@@ -111,4 +111,4 @@ I would like to express my gratitude to all the resources, tutorials, and course
 1. **Clone the Repository**:  
    Clone this repository to your local machine using:
    ```bash
-   git clone https://github.com/your-username/java-programming-practice.git
+   git clone https://github.com/Swapnil-Magare/Java-Programming.git
