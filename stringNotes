@@ -1,0 +1,33 @@
+String == it is a class use to Create String Object (Group of object)
+it is Present in java.lang package.
+it is used to Create immutable String object.
+it inherits 3 interface which are --
+	CharSequence-> it is used to maintain the sequence of the Characters in Object.
+
+	Comparable-> it is used to compare to String Object lexogra  phically(Alphabetically)
+
+	Serialization -> it is used to maintain the state of the Object.
+
+there are 2 Way in which we can Create String Object.
+1. Using String Literal.
+Syntax --
+	String variable = "String Literal";
+
+2. Using New Keyword,
+Syntax --
+	String variable = new String ("String Literal");
+
+What is String Constant Pool?
+It is a memory Store inside the Heap Area to Store the object
+of String class created using String Literal Directly.
+
+Why String Class is Immutable?
+Immutable means unchanged OR unmodifiable
+
+In string class,Object are created inside String constant pool,
+Which returns same address for different object creation with same data 
+where if 1 reference try to change the data of the object it will be affecting other reference also.
+Hence, String class are Immutable
+
+
+
